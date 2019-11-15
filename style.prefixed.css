@@ -1,0 +1,33 @@
+/* Global*/
+
+$font-text:'Roboto Condensed',sans-serif;
+$font-header:'Oswald',sans-serif;
+
+p {    
+  font-family: $font-text;
+  font-weight: 30;
+  font-size: 15px;
+}
+
+.void {
+    position: relative;
+    padding: 30px;
+}
+
+.box {
+    -ms-flex: 0 0 33.333%;
+        flex: 0 0 33.333%;
+    position: absolute;
+    max-width: 1140px;
+    text-align: justify; 
+    margin: 0 auto;
+    padding: 0 400px;
+}
+
+h2 {
+    font-size: 20px;
+}
+ 
+h1, h2 {
+    font-family: $font-header;
+}
