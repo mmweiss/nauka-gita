@@ -1,3 +1,11 @@
+nu-html-checker :
+
 ./node_modules/.bin/nu-html-checker *.html
 
-npx autoprefixer-cli -o style.prefixed.css style.css
+nu-html-checker *.html
+
+autoprefixer: 
+
+./node_modules/.bin/autoprefixer-cli -o style.prefixed.css style.css
+
+autoprefixer-cli -o style.prefixed.css style.css
